@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="{% url 'core:home' %}">E-Mağaza</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="mainNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="{% url 'core:home' %}">Ana Sayfa</a></li>
+        <li class="nav-item"><a class="nav-link" href="{% url 'core:about' %}">Hakkımızda</a></li>
+        <li class="nav-item"><a class="nav-link" href="{% url 'core:contact' %}">İletişim</a></li>
+        <li class="nav-item"><a class="nav-link" href="/admin/">Yönetim</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
